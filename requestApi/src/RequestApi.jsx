@@ -12,7 +12,7 @@ const RequestApi = () => {
             setIsLoading(true);
        
             try {
-            const url = "https://jsonplaceholders.typicode.com/users"
+            const url = "https://jsonplaceholder.typicode.com/users"
             
             const response = await fetch(url);
 
